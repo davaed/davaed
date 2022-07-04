@@ -23,3 +23,4 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_followup: yes
           plugin_followup_indepth: yes
+          plugin_followup_sections: repositories
