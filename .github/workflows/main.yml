@@ -16,6 +16,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # options
+          template: classic
+          base: header, activity, community, repositories, metadata
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
+          plugin_followup: yes
+          plugin_followup_indepth: yes
